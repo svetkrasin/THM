@@ -62,4 +62,4 @@
 
 nmap -sV -sC -oA scans/initial <ip>
 nmap -A -p- --script vuln -vv -oA scans/expanded <ip>
-
+nmap -A -T5 -sV --script vuln -oN rpnmap.map <ip>
