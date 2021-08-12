@@ -153,4 +153,6 @@ $ ps -ef
 
 $ kill <PID>
 
+# Open file explorer in place 
 
+$ nautilus
