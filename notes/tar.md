@@ -14,6 +14,6 @@ tar xf archive
 ##Create the level 0 backup
 tar cWf archive.tar --listed-incremental=reference.snar --level=0 folder
 ##View and verify the contents of the **level 0** backup by using tar
-tar tf reference.snar --incremnetal
+tar tf archive.tar --incremnetal
 ##Create an incremental backup
 tar cWf archive_new.tar --listed-incremental=reference.snar folder
