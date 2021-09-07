@@ -156,3 +156,23 @@ $ kill <PID>
 # Open file explorer in place 
 
 $ nautilus
+
+# Check runing services
+
+systemctl -t service --all
+
+# Check status of a service
+
+systemctl status <service_name1> <service_name2>
+
+# Restart service
+
+systemctl restart <service_name1> <service_name2>
+
+# Stop service
+
+systemctl stop <service_name> <service_name2>
+
+# Disable a service
+
+systemctl disable <service_name1> <service_name2>
