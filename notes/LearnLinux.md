@@ -176,3 +176,7 @@ systemctl stop <service_name> <service_name2>
 # Disable a service
 
 systemctl disable <service_name1> <service_name2>
+
+# Check sudo privilagies
+
+sudo -l
