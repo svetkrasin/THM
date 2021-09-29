@@ -1,0 +1,8 @@
+Local machine (mac):
+ipconfig getifaddr en0 //to find your local machine ip
+python3 -m http.server 8000 //run a server on port 8000
+
+//start the server at the same folder where file contains
+
+VM (Ubuntu):
+wget <local machine IP>:<open port>/<filename> //to transfer file onto vm

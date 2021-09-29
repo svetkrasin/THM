@@ -180,3 +180,11 @@ systemctl disable <service_name1> <service_name2>
 # Check sudo privilagies
 
 sudo -l
+
+# DNS hosts file
+
+/etc/hosts
+
+# Determine the secret key against the captured packet
+
+aircrack-ng PacketName.pcap
